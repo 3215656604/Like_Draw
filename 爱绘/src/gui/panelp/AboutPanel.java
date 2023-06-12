@@ -21,7 +21,7 @@ public class AboutPanel extends VariablePanel {
     //构造方法：初始化
     public AboutPanel(){
         version=new JLabel("版本: 1.0");
-        developer=new JLabel("开发人员: DuGan,XiaoJiangTao");
+        developer=new JLabel("开发人员: DuGan");
         feedbackEmail=new JLabel("反馈邮箱: 3215656604@qq.com");
         esc = new JButton("返回");
         setLayout(null);
